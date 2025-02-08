@@ -1,7 +1,7 @@
 import torch
 from torchvision import transforms
 from torchvision.utils import save_image
-from model import Generator  # Replace 'your_model_file' with the actual file where Generator is defined
+from runeCarving import Generator  # Replace 'your_model_file' with the actual file where Generator is defined
 from PIL import Image
 
 # Ask user for device preference
